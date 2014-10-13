@@ -18,6 +18,7 @@
 % standardize_flag: [boolean] turns data standardization ON/OFF
 % convergence_used: values [1 or 2] is the training termination criterion (see
 %                   conv.1 and conv.2 of theoretical background
+% Nmax: maximum # of iterations (use size(X,1) if unsure)
 % kernel_type: string can be either 'gaussian', or 'polynomial' or 'linear;
 % kernel_param: for linear kernel put any value
 % plot_flag: [1 or 0] plots the number of relevant vectors during training
